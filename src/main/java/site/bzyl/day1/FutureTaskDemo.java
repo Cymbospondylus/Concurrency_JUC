@@ -9,14 +9,21 @@ import java.util.concurrent.FutureTask;
 public class FutureTaskDemo {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         FutureTask<Integer> task = new FutureTask<>(() -> {
-            log.debug("running");
-            Thread.sleep(2000);
-            return 1000;
+            for (int i = 0; i < 100000; i++) {
+                log.debug("running...");
+                Thread.sleep(1000);
+            }
+            return 0;
         });
 
         Thread t1 = new Thread(task, "t1");
 
         t1.start();
+
+        for (int i = 0; i < 100000; i++) {
+            log.debug("running...");
+            Thread.sleep(1000);
+        }
 
         log.debug("{} = {}", "result",task.get());
 
