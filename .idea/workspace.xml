@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9931c23-c308-4635-b25e-4c46c4ee8e07" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/bzyl/day2/MultipleJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day2/MultipleJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day2/InterruptDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day2/WaitDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,20 @@
       <recent name="D:\Code\Java\JUC" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.MultipleJoin">
+  <component name="RunManager" selected="应用程序.InterruptDemo">
+    <configuration name="InterruptDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day2.InterruptDemo" />
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.bzyl.day2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JoinDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="site.bzyl.day2.JoinDemo" />
       <module name="JUC" />
@@ -96,21 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day2.ThreadInterrupt" />
-      <module name="JUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="site.bzyl.day2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeUnitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day2.TimeUnitDemo" />
+    <configuration name="WaitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day2.WaitDemo" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.InterruptDemo" />
+        <item itemvalue="应用程序.WaitDemo" />
         <item itemvalue="应用程序.MultipleJoin" />
         <item itemvalue="应用程序.JoinDemo" />
         <item itemvalue="应用程序.YieldDemo" />
-        <item itemvalue="应用程序.TimeUnitDemo" />
-        <item itemvalue="应用程序.ThreadInterrupt" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +155,7 @@
       <updated>1681117742509</updated>
       <workItem from="1681117743749" duration="5762000" />
       <workItem from="1681127237374" duration="7510000" />
-      <workItem from="1681171579107" duration="16318000" />
+      <workItem from="1681171579107" duration="18980000" />
     </task>
     <servers />
   </component>
