@@ -4,22 +4,17 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j(topic = "c.SynchronizedDemo")
 public class SynchronizedDemo {
-    public static int count = 0;
-    public static Object lock = new Object();
     public static void main(String[] args) throws InterruptedException {
+        Room room = new Room();
         Thread t1 = new Thread(() -> {
             for (int i = 0; i < 5000; i++) {
-
-                    count++;
-
+                room.increment();
             }
         }, "t1");
 
         Thread t2 = new Thread(() -> {
             for (int i = 0; i < 5000; i++) {
-                synchronized(lock) {
-                    count--;
-                }
+                room.decrement();
             }
         }, "t2");
 
@@ -29,6 +24,21 @@ public class SynchronizedDemo {
         t1.join();
         t2.join();
 
-        log.debug("counter = {}", count);
+        log.debug("counter = {}", room.getCounter());
+    }
+}
+
+class Room {
+    private int counter = 0;
+    public synchronized void increment() {
+        counter++;
+    }
+
+    public synchronized void decrement() {
+        counter--;
+    }
+
+    public synchronized int getCounter() {
+        return counter;
     }
 }
