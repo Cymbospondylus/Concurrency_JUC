@@ -1,4 +1,4 @@
-package site.bzyl.day4;
+package site.bzyl.day5;
 
 import lombok.extern.slf4j.Slf4j;
 
