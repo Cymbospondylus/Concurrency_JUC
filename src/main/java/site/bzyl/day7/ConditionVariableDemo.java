@@ -12,8 +12,8 @@ public class ConditionVariableDemo {
     private static final ReentrantLock lock = new ReentrantLock();
     private static boolean hasCigarette = false;
     private static boolean hasTakeout = false;
-    private static Condition waitCigaretteSet = lock.newCondition();
-    private static Condition waitTakeoutSet = lock.newCondition();
+    private static final Condition waitCigaretteSet = lock.newCondition();
+    private static final Condition waitTakeoutSet = lock.newCondition();
     public static void main(String[] args) {
         new Thread(() -> {
             lock.lock();
