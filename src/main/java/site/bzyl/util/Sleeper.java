@@ -3,9 +3,9 @@ package site.bzyl.util;
 import java.util.concurrent.TimeUnit;
 
 public class Sleeper {
-    public static void mySleep(int second) {
+    public static void mySleep(int millis) {
         try {
-            TimeUnit.SECONDS.sleep(second);
+            Thread.sleep(millis);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
