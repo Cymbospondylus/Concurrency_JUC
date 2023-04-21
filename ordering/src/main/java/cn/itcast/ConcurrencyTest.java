@@ -39,9 +39,10 @@ import org.openjdk.jcstress.infra.results.I_Result;
 @State
 public class ConcurrencyTest {
     int num = 0;
-    boolean ready = false;
+    volatile boolean ready = false;
     @Actor
     public void actor1(I_Result r) {
+        // 读屏障
         if(ready) {
             r.r1 = num + num;
         } else {
@@ -52,5 +53,6 @@ public class ConcurrencyTest {
     public void actor2(I_Result r) {
         num = 2;
         ready = true;
+        // 写屏障
     }
 }
