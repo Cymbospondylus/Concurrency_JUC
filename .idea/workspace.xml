@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9931c23-c308-4635-b25e-4c46c4ee8e07" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day6/GuardedObjectEnhance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day6/MessageQueueDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f9931c23-c308-4635-b25e-4c46c4ee8e07" name="变更" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +22,16 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\韦祎\.m2\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Develop/apache-maven-3.6.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\Develop\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="2OEFH13x8RbUp9lbMoEi2f9G8Fn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -45,11 +51,12 @@
     "WebServerToolWindowPanel.toolwindow.show.date": "false",
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
+    "last_opened_file_path": "D:/Code/Java/JUC/ordering/pom.xml",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.fileTypes"
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -58,13 +65,13 @@
       <recent name="D:\Code\Java\JUC" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.MessageQueueDemo">
-    <configuration name="GuardedObjectEnhance (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day6.GuardedObjectEnhance" />
+  <component name="RunManager" selected="应用程序.TwoPhraseTermination (4)">
+    <configuration name="TwoPhraseTermination (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day10.TwoPhraseTermination" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day6.*" />
+          <option name="PATTERN" value="site.bzyl.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageQueueDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day6.MessageQueueDemo" />
+    <configuration name="TwoPhraseTermination (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day10.TwoPhraseTermination" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day6.*" />
+          <option name="PATTERN" value="site.bzyl.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageQueueDemo (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day6.MessageQueueDemo" />
+    <configuration name="TwoPhraseTermination (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day10.TwoPhraseTermination" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day6.*" />
+          <option name="PATTERN" value="site.bzyl.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageQueueDemo (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day6.MessageQueueDemo" />
+    <configuration name="TwoPhraseTermination (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day10.TwoPhraseTermination" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day6.*" />
+          <option name="PATTERN" value="site.bzyl.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MessageQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day6.MessageQueueDemo" />
+    <configuration name="TwoPhraseTermination" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day10.TwoPhraseTermination" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day6.*" />
+          <option name="PATTERN" value="site.bzyl.day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.MessageQueueDemo" />
-        <item itemvalue="应用程序.MessageQueueDemo (3)" />
-        <item itemvalue="应用程序.MessageQueueDemo (2)" />
-        <item itemvalue="应用程序.MessageQueueDemo (1)" />
-        <item itemvalue="应用程序.GuardedObjectEnhance (2)" />
+        <item itemvalue="应用程序.TwoPhraseTermination (4)" />
+        <item itemvalue="应用程序.TwoPhraseTermination (3)" />
+        <item itemvalue="应用程序.TwoPhraseTermination" />
+        <item itemvalue="应用程序.TwoPhraseTermination (1)" />
+        <item itemvalue="应用程序.TwoPhraseTermination (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +153,19 @@
       <workItem from="1681127237374" duration="7510000" />
       <workItem from="1681171579107" duration="20027000" />
       <workItem from="1681304227319" duration="15158000" />
-      <workItem from="1681432305306" duration="19580000" />
+      <workItem from="1681432305306" duration="23418000" />
+      <workItem from="1681536783875" duration="17894000" />
+      <workItem from="1681687749766" duration="2107000" />
+      <workItem from="1681783801285" duration="1390000" />
+      <workItem from="1681785202660" duration="309000" />
+      <workItem from="1681785548603" duration="7662000" />
+      <workItem from="1681949135924" duration="1474000" />
+      <workItem from="1681977005919" duration="4190000" />
+      <workItem from="1682040407271" duration="1340000" />
+      <workItem from="1682041756705" duration="499000" />
+      <workItem from="1682042266144" duration="1007000" />
+      <workItem from="1682043282403" duration="253000" />
+      <workItem from="1682043545452" duration="162000" />
     </task>
     <servers />
   </component>
@@ -180,5 +199,23 @@
         <entry key="1ec6c34b-e8ac-4a0a-b6ef-0ba8142ad2b2" value="TOOL_WINDOW" />
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/site/bzyl/day6/WaitNotifyDemo.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
