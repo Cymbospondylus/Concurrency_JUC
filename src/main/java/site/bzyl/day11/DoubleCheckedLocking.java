@@ -20,7 +20,7 @@ public class DoubleCheckedLocking {
 final class Singleton{
     private Singleton(){}
 
-    private static Singleton INSTANCE = null;
+    private static volatile  Singleton INSTANCE = null;
 
     public static Singleton getINSTANCE() {
         if (INSTANCE == null) {
