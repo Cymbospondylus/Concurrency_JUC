@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9931c23-c308-4635-b25e-4c46c4ee8e07" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day11/HappensBefore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/bzyl/day11/DoubleCheckedLocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day11/DoubleCheckedLocking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day12/AtomicIntegerArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day12/AtomicIntegerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day12/LambdaExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day12/UpdateAndGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/site/bzyl/day12/CompareAndSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day12/CompareAndSet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +71,13 @@
       <recent name="D:\Code\Java\JUC" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.DoubleCheckedLocking (2)">
-    <configuration name="DoubleCheckedLocking (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day11.DoubleCheckedLocking" />
+  <component name="RunManager" selected="应用程序.LambdaExpression">
+    <configuration name="LambdaExpression (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day12.LambdaExpression" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day11.*" />
+          <option name="PATTERN" value="site.bzyl.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleCheckedLocking (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day11.DoubleCheckedLocking" />
+    <configuration name="LambdaExpression (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day12.LambdaExpression" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day11.*" />
+          <option name="PATTERN" value="site.bzyl.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleCheckedLocking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day11.DoubleCheckedLocking" />
+    <configuration name="LambdaExpression (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day12.LambdaExpression" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day11.*" />
+          <option name="PATTERN" value="site.bzyl.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoPhraseTermination (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day10.TwoPhraseTermination" />
+    <configuration name="LambdaExpression (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day12.LambdaExpression" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day10.*" />
+          <option name="PATTERN" value="site.bzyl.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoPhraseTermination (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day10.TwoPhraseTermination" />
+    <configuration name="LambdaExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day12.LambdaExpression" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day10.*" />
+          <option name="PATTERN" value="site.bzyl.day12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.DoubleCheckedLocking (2)" />
-        <item itemvalue="应用程序.DoubleCheckedLocking" />
-        <item itemvalue="应用程序.DoubleCheckedLocking (1)" />
-        <item itemvalue="应用程序.TwoPhraseTermination (4)" />
-        <item itemvalue="应用程序.TwoPhraseTermination (3)" />
+        <item itemvalue="应用程序.LambdaExpression" />
+        <item itemvalue="应用程序.LambdaExpression (1)" />
+        <item itemvalue="应用程序.LambdaExpression (5)" />
+        <item itemvalue="应用程序.LambdaExpression (4)" />
+        <item itemvalue="应用程序.LambdaExpression (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +173,9 @@
       <workItem from="1682043282403" duration="253000" />
       <workItem from="1682043545452" duration="162000" />
       <workItem from="1682044048907" duration="6923000" />
+      <workItem from="1682139724162" duration="9553000" />
+      <workItem from="1682170894077" duration="4328000" />
+      <workItem from="1682218310491" duration="2848000" />
     </task>
     <servers />
   </component>
@@ -217,6 +223,11 @@
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.concurrent.atomic.AtomicInteger" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
