@@ -16,14 +16,31 @@ import java.util.function.Supplier;
 public class OptionalDemo {
     public static void main(String[] args) {
         Optional<Author> authorOptional = getAuthorOptional();
-        System.out.println(authorOptional.orElseThrow(() -> new  RuntimeException("空！")));
+        /*System.out.println(authorOptional.orElseThrow(() -> new  RuntimeException("空！")));*/
         /*authorOptional.ifPresent(author -> System.out.println(author.getName()));*/
+        /*optionalFiler();*/
+        optionalMap();
+    }
+    public static void optionalMap() {
+        Optional<Author> authorOptional = getAuthorOptional();
+        authorOptional.map(author -> author.getBook())
+                .ifPresent(books -> System.out.println(books));
+    }
 
+    private static void optionalFiler() {
+        Optional<Author> authorOptional = getAuthorOptional();
+        authorOptional.filter(author -> author.getAge() > 18)
+                .ifPresent(author -> System.out.println(author));
+        if (authorOptional.isPresent()) {
+            System.out.println(authorOptional.orElseGet(() -> new Author()).getAge());
+        }
     }
 
     public static Optional<Author> getAuthorOptional() {
         Author author = new Author(1L, "杯椎鱼龙", 21, "你来到了没有知识的荒原", new ArrayList<>());
-        return Optional.ofNullable(author);
+        author.getBook().add("JUC");
+        author.getBook().add("JVM");
+        return Optional.ofNullable(null);
     }
 }
 @Data
