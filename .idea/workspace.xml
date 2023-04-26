@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9931c23-c308-4635-b25e-4c46c4ee8e07" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day16/AtomicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day16/AtomicFieldUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day16/LongAdderDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -24,6 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../Develop/Java/jdk-1.8/src.zip!/java/util/concurrent/atomic/AtomicInteger.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$PROJECT_DIR$/../../../Develop/Java/jdk-1.8/src.zip!/java/util/function/Predicate.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -71,7 +73,7 @@
       <recent name="D:\Code\Java\JUC" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.AtomicArray">
+  <component name="RunManager" selected="应用程序.AtomicFieldUpdater">
     <configuration name="AtomicArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="site.bzyl.day16.AtomicArray" />
       <module name="JUC" />
@@ -85,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExpression (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day12.LambdaExpression" />
+    <configuration name="AtomicFieldUpdater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day16.AtomicFieldUpdater" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day12.*" />
+          <option name="PATTERN" value="site.bzyl.day16.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,6 +167,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.AtomicFieldUpdater" />
         <item itemvalue="应用程序.AtomicArray" />
         <item itemvalue="应用程序.OptionalDemo" />
         <item itemvalue="应用程序.OptionalDemo (1)" />
@@ -209,6 +212,7 @@
       <workItem from="1682475658789" duration="247000" />
       <workItem from="1682475914570" duration="505000" />
       <workItem from="1682476428481" duration="2821000" />
+      <workItem from="1682513896189" duration="3233000" />
     </task>
     <servers />
   </component>
