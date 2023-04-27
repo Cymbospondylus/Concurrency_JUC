@@ -12,37 +12,13 @@ public class CompareAndSet {
     public static void main(String[] args) {
         log.debug("AccountWithLock...");
         Account account = new AccountWithLock(10000);
-        account.test();
+        Account.test(account);
         log.debug("AccountWithCAS...");
         Account account1 = new AccountWithCAS(10000);
-        account1.test();
+        Account.test(account1);
     }
 }
 
-interface Account {
-    public abstract  Integer getBalance();
-    void withdraw(int amount);
-     default void test() {
-         long start = System.currentTimeMillis();
-         List<Thread> threads = new ArrayList<>();
-        for (int i = 0; i < 1000; i++) {
-            threads.add(new Thread(() -> {
-                this.withdraw(10);
-            }));
-        }
-        threads.forEach(Thread::start);
-        for (Thread thread : threads) {
-            try {
-                thread.join();
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-        long end = System.currentTimeMillis();
-        long passedTime = end - start;
-        System.out.printf("balance:%d, time:%d ms\n", this.getBalance(), passedTime);
-    }
-}
 @Slf4j(topic = "c.AccountWithCAS")
 class AccountWithCAS implements Account {
     private AtomicInteger balance;
