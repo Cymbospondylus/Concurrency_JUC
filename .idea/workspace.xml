@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9931c23-c308-4635-b25e-4c46c4ee8e07" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day12/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day17/MyAtomicIntegerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day17/UnsafeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/bzyl/day12/CompareAndSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day12/CompareAndSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/bzyl/day16/LongAdderDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day16/LongAdderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day18/DoubleCheckingLock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +214,8 @@
       <workItem from="1682475658789" duration="247000" />
       <workItem from="1682475914570" duration="505000" />
       <workItem from="1682476428481" duration="2821000" />
-      <workItem from="1682513896189" duration="13602000" />
+      <workItem from="1682513896189" duration="14822000" />
+      <workItem from="1682656549538" duration="3376000" />
     </task>
     <servers />
   </component>
