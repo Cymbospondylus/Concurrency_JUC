@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9931c23-c308-4635-b25e-4c46c4ee8e07" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day19/ThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day19/FixedThreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day19/ShutdownDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day19/SubmitDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
     "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "cn.yiiguxing.plugin.translate"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -76,13 +78,13 @@
       <recent name="D:\Code\Java\JUC" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ThreadPoolDemo">
-    <configuration name="DoubleCheckingLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day18.DoubleCheckingLock" />
+  <component name="RunManager" selected="应用程序.SubmitDemo">
+    <configuration name="FixedThreadPoolDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day19.FixedThreadPoolDemo" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day18.*" />
+          <option name="PATTERN" value="site.bzyl.day19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongAdderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day16.LongAdderDemo" />
+    <configuration name="SubmitDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day19.SubmitDemo" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.bzyl.day16.*" />
+          <option name="PATTERN" value="site.bzyl.day19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.SubmitDemo" />
+        <item itemvalue="应用程序.FixedThreadPoolDemo" />
         <item itemvalue="应用程序.ThreadPoolDemo" />
         <item itemvalue="应用程序.FlyWeightPattern" />
         <item itemvalue="应用程序.FlyWeightPattern (1)" />
-        <item itemvalue="应用程序.DoubleCheckingLock" />
-        <item itemvalue="应用程序.LongAdderDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +196,7 @@
       <workItem from="1682699109196" duration="169000" />
       <workItem from="1682699289221" duration="169000" />
       <workItem from="1682699468329" duration="66000" />
-      <workItem from="1682699543786" duration="13452000" />
+      <workItem from="1682699543786" duration="24115000" />
     </task>
     <servers />
   </component>
