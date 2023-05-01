@@ -8,12 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9931c23-c308-4635-b25e-4c46c4ee8e07" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day20/AbstractQueuedSynchronizerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day20/ForkJoinThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day20/ReentrantLockPrinciple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day20/ReentrantReadWriteLockDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day20/StampedLockDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notes/Java并发编程.md" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day20/ConcurrentHashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day20/CountdownLatchDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/site/bzyl/day20/StampedLockDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/bzyl/day20/SemaphoreDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,22 +84,9 @@
       <recent name="D:\Code\Java\JUC" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ReentrantReadWriteLockDemo">
-    <configuration name="AbstractQueuedSynchronizerDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day20.AbstractQueuedSynchronizerDemo" />
-      <module name="JUC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="site.bzyl.day20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AbstractQueuedSynchronizerDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="site.bzyl.day20.AbstractQueuedSynchronizerDemo" />
+  <component name="RunManager" selected="应用程序.CountdownLatchDemo">
+    <configuration name="CountdownLatchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day20.CountdownLatchDemo" />
       <module name="JUC" />
       <extension name="coverage">
         <pattern>
@@ -153,13 +137,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SemaphoreDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="site.bzyl.day20.SemaphoreDemo" />
+      <module name="JUC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.bzyl.day20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.CountdownLatchDemo" />
+        <item itemvalue="应用程序.SemaphoreDemo" />
         <item itemvalue="应用程序.ReentrantReadWriteLockDemo" />
         <item itemvalue="应用程序.ReentrantReadWriteLockDemo (1)" />
         <item itemvalue="应用程序.ReentrantLockPrinciple" />
-        <item itemvalue="应用程序.AbstractQueuedSynchronizerDemo" />
-        <item itemvalue="应用程序.AbstractQueuedSynchronizerDemo (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +203,7 @@
       <workItem from="1682699289221" duration="169000" />
       <workItem from="1682699468329" duration="66000" />
       <workItem from="1682699543786" duration="24115000" />
-      <workItem from="1682782099168" duration="19874000" />
+      <workItem from="1682782099168" duration="33102000" />
     </task>
     <servers />
   </component>
